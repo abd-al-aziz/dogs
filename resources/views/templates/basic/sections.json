@@ -1,0 +1,232 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "description": "text",
+            "button_text": "text",
+            "button_url": "text",
+            "images":{
+                "background_image":{
+                    "size":"875x975"
+                }
+            }
+        }
+    },
+    "services": {
+        "builder": true,
+        "name": "Services Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"728x465",
+                    "thumb":"120x80"
+                }
+            },
+            "title": "text",
+            "description": "textarea-rich",
+            "modal": false
+        }
+    },
+    "features": {
+        "builder": true,
+        "name": "Features Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "pet_categories": {
+        "builder": true,
+        "name": "Pet Categories Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"400x400",
+                    "thumb":"100x100"
+                }
+            },
+            "title": "text",
+            "modal": true
+        }
+    },
+    "call_out": {
+        "builder": true,
+        "name": "Call Out Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1296x432"
+                }
+            },
+            "heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"500x681"
+                }
+            },
+            "tag": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-rich",
+            "modal": false
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images":{
+                "profile_photo":{
+                    "size":"400x400",
+                    "thumb":"100x100"
+                }
+            },
+            "name": "text",
+            "designation": "text",
+            "comment": "textarea",
+            "modal": true
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images":{
+                "image":{
+                    "size":"728x465",
+                    "thumb":"120x80"
+                }
+            },
+            "title": "text",
+            "description": "textarea-rich",
+            "date_month": "text",
+            "year": "text",
+            "modal": false
+        }
+    },
+    "consultation": {
+        "builder": true,
+        "name": "Consultation Section",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"500x681"
+                }
+            },
+            "tag": "text",
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "packages": {
+        "builder": true,
+        "name": "Packages Section",
+        "content": {
+            "tag": "text",
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"728x465"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "description": "textarea-rich"
+        }
+    },
+    "shop": {
+        "builder": true,
+        "name": "Shop Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text",
+            "description": "textarea-rich"
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-rich",
+            "modal": false
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "url": "text",
+            "social_icon": "icon",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "name": "Contact Us",
+        "content": {
+            "title": "text",
+            "short_details": "text",
+            "footer_short_details": "text",
+            "email_address": "text",
+            "office_hour": "text",
+            "address": "text",
+            "contact_number": "text",
+            "latitude": "text",
+            "longitude": "text",
+            "website_footer": "textarea-rich"
+        }
+    }
+}

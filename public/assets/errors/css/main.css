@@ -1,0 +1,77 @@
+/* reset css start */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Fredoka One";
+    color: #6f6f6f;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    position: relative;
+    line-height: 1.7;
+    background-color: #f8f6ff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* reset css end */
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn--base {
+    position: relative;
+    background: #4BB3E6;
+    -webkit-clip-path: polygon(0% 0%, 100% 12%, 95% 94%, 4% 96%);
+    clip-path: polygon(0% 0%, 100% 12%, 95% 94%, 4% 96%);
+    border-radius: 6px 18px 26px 22px;
+    overflow: hidden;
+    color: #ffffff;
+    padding: 20px 35px;
+    font-size: 17px;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    text-align: center;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    text-decoration: none;
+}
+
+.btn--base:hover {
+    background: #060662;
+    color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .btn--base {
+        padding: 23px 18px;
+        font-size: 20px;
+    }
+}
+
+.title {
+    font-family: "Fredoka One";
+}
+
+/* error-404 css end */
+
+/*# sourceMappingURL=main.css.map */
